@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+         Demo für die Attribute layout_alignParent<XXX>:
+            android:layout_alignParentTop
+            android:layout_alignParentBottom
+            android:layout_alignParentLeft
+            android:layout_alignParentRight
+    -->
+
+    <!--
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#80D0D000"
+        android:text="@string/label_textview_1"
+        android:textSize="25sp"/>
+    -->
+
+    <!--
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#80D0D000"
+        android:text="@string/label_textview_1"
+        android:textSize="25sp"/>
+    -->
+
+
+    <!--
+         Das layout_width="wrap_content" wird durch layout_alignParentLeft="true"
+         und layout_alignParentRight="true" übersteuert.
+    -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#80D0D000"
+        android:text="@string/label_textview_1"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

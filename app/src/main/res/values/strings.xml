@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">RelativeLayout-Demo</string>
+
+    <string name="label_textview_1">Textview 1</string>
+    <string name="label_textview_2">Textview 2</string>
+    <string name="label_textview_3">Textview 3</string>
+    <string name="label_textview_4">Textview 4</string>
+    <string name="label_textview_5">Textview 5</string>
+
+    <string name="label_textview_a">Textview A</string>
+    <string name="label_textview_b">Textview B</string>
+
+    <string name="label_dhbw">DHBW</string>
+
+</resources>

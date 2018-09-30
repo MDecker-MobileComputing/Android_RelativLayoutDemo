@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview_1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#80D0D000"
+        android:text="@string/label_textview_1"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/textview_1"
+        android:layout_below="@id/textview_1"
+        android:background="#8000D000"
+        android:text="@string/label_textview_2"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/textview_2"
+        android:layout_alignLeft="@id/textview_1"
+        android:layout_alignRight="@id/textview_2"
+        android:background="#80FFFF00"
+        android:text="@string/label_textview_3"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textview_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"
+        android:background="#8000EE00"
+        android:text="@string/label_textview_4"
+        android:textSize="25sp" />
+
+</RelativeLayout>
