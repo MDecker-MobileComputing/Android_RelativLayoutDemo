@@ -11,6 +11,10 @@
     <string name="label_textview_a">Textview A</string>
     <string name="label_textview_b">Textview B</string>
 
+    <string name="label_aaa">AAA</string>
+    <string name="label_bbb">BBB</string>
+    <string name="label_ccc">CCC</string>
+
     <string name="label_dhbw">DHBW</string>
 
 </resources>

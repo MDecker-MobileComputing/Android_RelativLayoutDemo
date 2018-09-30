@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+         Layout-Datei für Übungsaufgaben (Layout anhand Quelltext skizzieren).
+    -->
+
+
+    <TextView
+        android:id="@+id/textview_a"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/farbe_gelb"
+        android:layout_alignParentRight="true"
+        android:text="@string/label_aaa"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textview_b"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/farbe_aqua"
+        android:layout_below="@id/textview_a"
+        android:text="@string/label_bbb"
+        android:textSize="25sp"/>
+    
+    <TextView
+        android:background="@color/farbe_hellgrau"
+        android:layout_width="wrap_content"
+        android:text="@string/label_ccc"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_b" />
+
+
+</RelativeLayout>
