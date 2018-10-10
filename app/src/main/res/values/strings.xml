@@ -17,4 +17,11 @@
 
     <string name="label_dhbw">DHBW</string>
 
+
+    <!-- Für "ksc_activity.xml" -->
+    <string name="label_k">K</string>
+    <string name="label_s">S</string>
+    <string name="label_c">C</string>
+    <string name="label_ole">Olé</string>
+
 </resources>
