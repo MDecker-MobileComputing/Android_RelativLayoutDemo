@@ -15,13 +15,16 @@ import android.os.Bundle;
 public class MainActivity extends Activity {
 
     /**
+     * Lifecycle-Methode, lädt (nur) Layout-Datei.
+     *
      * Bitte genau eine "setContentView()"-Anweisung einkommentieren!
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
-        setContentView( R.layout.width_height_kombinationen );
+        //setContentView( R.layout.width_height_kombinationen );
 
         //setContentView( R.layout.attribut_gravity );
 
@@ -33,7 +36,7 @@ public class MainActivity extends Activity {
 
         //setContentView( R.layout.ui_designer );
 
-        //setContentView( R.layout.margin );
+        setContentView( R.layout.margin );
 
         //setContentView( R.layout.forward_deklaration );
 
