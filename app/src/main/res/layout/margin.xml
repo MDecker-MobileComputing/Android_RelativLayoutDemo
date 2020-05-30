@@ -9,7 +9,7 @@
     <!--
           Demo für Attribut "margin" (Abstand zwischen Elementen);
           siehe Attribut "android:layout_marginTop" von textview_5
-    -->
+     -->
 
     <TextView
         android:id="@+id/textview_1"

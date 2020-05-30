@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 
         super.onCreate(savedInstanceState);
 
-        //setContentView( R.layout.width_height_kombinationen );
+        setContentView( R.layout.width_height_kombinationen );
 
         //setContentView( R.layout.attribut_gravity );
 
@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 
         //setContentView( R.layout.ui_designer );
 
-        setContentView( R.layout.margin );
+        //setContentView( R.layout.margin );
 
         //setContentView( R.layout.forward_deklaration );
 
