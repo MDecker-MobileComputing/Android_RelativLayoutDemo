@@ -15,10 +15,13 @@ import android.os.Bundle;
 public class MainActivity extends Activity {
 
     /**
+     * Lifecycle-Methode, lädt (nur) Layout-Datei.
+     *
      * Bitte genau eine "setContentView()"-Anweisung einkommentieren!
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
         //setContentView( R.layout.width_height_kombinationen );
