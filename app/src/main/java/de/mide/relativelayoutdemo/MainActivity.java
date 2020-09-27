@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 
 /**
- * App demonstriert Funktionsweise und Möglichkeiten mit RelativeLayout.
+ * App demonstriert Funktionsweise und Möglichkeiten mit dem RelativeLayout.
  * Die App enthält mehrere Layout-Dateien, die in der "onCreate()"-Methode
  * entsprechend einzukommentieren sind (immer nur eine auf einmal!)
  * <br><br>
@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView( R.layout.width_height_kombinationen );
+        //setContentView( R.layout.width_height_kombinationen );
 
         //setContentView( R.layout.attribut_gravity );
 
@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
         //setContentView( R.layout.ui_designer );
 
-        //setContentView( R.layout.margin );
+        setContentView( R.layout.margin );
 
         //setContentView( R.layout.forward_deklaration );
 
