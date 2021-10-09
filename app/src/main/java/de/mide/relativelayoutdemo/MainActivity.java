@@ -15,9 +15,10 @@ import android.os.Bundle;
 public class MainActivity extends Activity {
 
     /**
-     * Lifecycle-Methode, lädt (nur) Layout-Datei.
+     * Lifecycle-Methode, lädt (nur) eine Layout-Datei.<br><br>
      *
-     * Bitte genau eine "setContentView()"-Anweisung einkommentieren!
+     * Es muss immer genau eine der {@code setContentView()}-Anweisungen
+     * einkommentiert sein.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
