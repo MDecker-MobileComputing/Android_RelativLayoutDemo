@@ -5,7 +5,7 @@
 			    tools:context=".MainActivity" >
 
     <!--
-    		Beispiel für zwei sich teilweise überlappende UI-Elemente.
+         Beispiel für zwei sich teilweise überlappende UI-Elemente.
     -->
 
     <TextView android:id="@+id/textview_a"         
