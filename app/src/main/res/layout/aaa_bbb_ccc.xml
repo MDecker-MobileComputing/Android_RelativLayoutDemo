@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--
-         Layout-Datei für Übungsaufgaben (Layout anhand Quelltext skizzieren).
-    -->
-
-
     <TextView
         android:id="@+id/textview_a"
         android:layout_height="wrap_content"
