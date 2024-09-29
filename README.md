@@ -2,17 +2,13 @@
 
 <br>
 
-Android app to demonstrate how the [RelativeLayout](https://developer.android.com/reference/android/widget/RelativeLayout) works.
+Dieses Repository enthält den Quellcode einer nativen Android-App (Java), welche das [RelativeLayout](https://developer.android.com/reference/android/widget/RelativeLayout) 
+demonstriert.
 
 <br>
 
-App contains several layout files, which can be "activated" by commenting in/out
-the corresponding statements in file
-[MainActivity.java](app/src/main/java/de/mide/relativelayoutdemo/MainActivity.java).
-
-<br>
-
-Identifiers (names for classes, variables and methods), UI texts and (JavaDoc) comments are in German only.
+Das Android-Studio-Projekt enthält mehrere Layout-Dateien, die durch ein-/auskommentieren in der Datei 
+[MainActivity.java](app/src/main/java/de/mide/relativelayoutdemo/MainActivity.java) sichtbar gemacht werden können.
 
 <br>
 
