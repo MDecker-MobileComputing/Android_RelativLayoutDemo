@@ -7,8 +7,8 @@ demonstriert.
 
 <br>
 
-Das Android-Studio-Projekt enthält mehrere Layout-Dateien, die durch ein-/auskommentieren in der Datei 
-[MainActivity.java](app/src/main/java/de/mide/relativelayoutdemo/MainActivity.java) sichtbar gemacht werden können.
+Das Android-Studio-Projekt enthält mehrere Layout-Dateien, die durch ein-/auskommentieren in der Klasse 
+[MainActivity](app/src/main/java/de/mide/relativelayoutdemo/MainActivity.java#L28) sichtbar gemacht werden können.
 
 <br>
 
