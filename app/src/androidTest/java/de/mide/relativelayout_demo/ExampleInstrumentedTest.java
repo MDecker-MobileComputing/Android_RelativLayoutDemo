@@ -1,4 +1,4 @@
-package de.mide.relativelayoutdemo;
+package de.mide.relativelayout_demo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.relativelayoutdemo", appContext.getPackageName());
+        assertEquals("de.mide.relativelayout_demo", appContext.getPackageName());
     }
 }

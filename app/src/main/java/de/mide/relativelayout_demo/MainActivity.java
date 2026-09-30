@@ -1,4 +1,4 @@
-package de.mide.relativelayoutdemo;
+package de.mide.relativelayout_demo;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -21,9 +21,9 @@ public class MainActivity extends Activity {
      * einkommentiert sein.
      */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState ) {
 
-        super.onCreate(savedInstanceState);
+        super.onCreate( savedInstanceState );
 
         setContentView( R.layout.width_height_kombinationen );
 

@@ -1,4 +1,4 @@
-package de.mide.relativelayoutdemo;
+package de.mide.relativelayout_demo;
 
 import org.junit.Test;
 
